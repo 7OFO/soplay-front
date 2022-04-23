@@ -1,0 +1,75 @@
+.sp--header{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    height: 70px;
+}
+
+.sp--header-container-master{
+    max-width: 1800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 20px;
+}
+.sp--header-container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 2;
+    width: 100%;
+}
+
+.sp--header-container-pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.sp--header-logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.sp--header-menu-list{
+    padding-left: 150px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sp--menu-link{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100px;
+    font-weight: 400;
+}
+
+.sp--header-pesquisar{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 16px;
+    width: 290px;
+    padding-left: 20px;
+    font-weight: 500;
+    background-color: #171717b4;
+    color: white;
+}
+
+.sp--header-user{
+    margin-left: 25px;
+    height: 35px;
+    cursor: pointer;
+}
