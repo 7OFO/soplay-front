@@ -6,16 +6,13 @@ class Header extends HTMLElement {
     }
     connectedCallback() {
         this.innerHTML = `
-        <head>
-        <link rel="stylesheet" href="./components/header/header.css">
-        </head>
         
         <header class="sp--header">
             <div class="sp--header-container-master">
                 <div class="sp--header-container-menu">
                     <img src="./img/logo.png" alt="logo" class="sp--header-logo">
                     <ul class="sp--header-menu-list">
-                        <a href="#" class="sp--menu-link">
+                        <a href="/inicio" class="sp--menu-link">
                             <li class="sp--menu-item"> Inicio </li>
                         </a>
                         <a href="#" class="sp--menu-link">
@@ -36,13 +33,11 @@ class Header extends HTMLElement {
             </div>
         </header>
         `
-      // browser calls this method when the element is added to the document
-      // (can be called many times if an element is repeatedly added/removed)
+      
     }
   
     disconnectedCallback() {
-      // browser calls this method when the element is removed from the document
-      // (can be called many times if an element is repeatedly added/removed)
+      
     }
   
   }
