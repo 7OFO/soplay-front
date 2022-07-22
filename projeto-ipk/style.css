@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 :root{
@@ -22,7 +23,7 @@ body{
     position: fixed;
     bottom: 0;
     left: 0;
-    height: 340px;
+    height: 500px;
     width: 100%;
     padding-right: 100px;
     padding-left: 100px;
@@ -32,6 +33,12 @@ body{
 .categoria{
     display: flex;
     height: 150px;
+}
+
+.categoria p{
+    font-weight: 600;
+    align-self: center;
+    
 }
 
 
@@ -46,15 +53,16 @@ body{
     height:110px;
     width:200px;
     margin:5px;
-    filter: saturate(0.7);
+    filter: saturate(0.5);
+    text-align: center;
 }
 
 .thumb:focus{
     box-sizing: border-box;
     filter: saturate(2);
     cursor: pointer;
-    box-shadow: 0 10px 15px -5px black;
-    border: solid 2px darkorange;
+    border: solid 3px darkorange;
+    box-shadow: inset 0 0 10px black;
     z-index: 99;
     outline: none;
 }

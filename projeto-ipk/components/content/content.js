@@ -74,7 +74,7 @@ class Content extends HTMLElement {
                 $(".conteudo").append(`
                 
                     <div class="glider categoria" id="${$.trim(categorias[c])}" style="color:white; font-size:20px;  margin-bottom: 20px;">
-                  
+                        <p>${$.trim(categorias[c])}</p>
                     </div>
                 `);
                
@@ -91,7 +91,7 @@ class Content extends HTMLElement {
             const gliders = document.querySelectorAll(".glider");
             gliders.forEach((glide) => {
             new Glider(glide, {
-                slidesToShow: 8,
+                slidesToShow: 7,
                 slidesToScroll: 1,
                 scrollLock: true,
                 scrollLockDelay:100,
