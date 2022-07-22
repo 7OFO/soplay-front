@@ -1,0 +1,11 @@
+{
+  "vendor": "teste",
+  "largeIcon": "largeIcon.png",
+  "icon": "icon.png",
+  "main": "index.html",
+  "id": "br.com.teste",
+  "title": "teste",
+  "type": "web",
+  "version": "0.0.1",
+  "disableBackHistoryAPI":true
+}

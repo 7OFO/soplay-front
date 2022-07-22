@@ -5,11 +5,11 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
-    filter: opacity(0.5);
+    filter: opacity(0.3);
 }
 
 .sp--container-banner{
-    height: 1000px;
+    height: 1080px;
     max-width: 1800px;
     display: flex;
 }
